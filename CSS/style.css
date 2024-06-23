@@ -154,3 +154,12 @@ footer{
     overflow-y: scroll;
     scroll-snap-type: mandatory;
 }
+.carousel{
+    max-width: 800px;
+    margin:25%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.logo{
+    height:70px;
+}
