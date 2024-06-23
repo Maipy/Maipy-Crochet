@@ -1,0 +1,156 @@
+nav{
+    background-color:#c09cd4;
+    position: absolute;
+}
+.papafrita{
+    align-items:end;
+    font-size: 20px;
+    font-family: "Playwrite DE Grund", cursive;
+    text-decoration: none; 
+}
+.papass{
+    color:white;
+    font-size: 35px;
+    font-family: "Playwrite DE Grund", cursive;
+    text-decoration: none;
+    padding-left: 10px;
+    padding-bottom: 5px;
+}
+.papass:hover{
+    animation: pulse; 
+    animation-duration: 2s; 
+}
+.nav-item:hover{
+    color:#c09cd4;
+    animation: pulse; 
+    animation-duration: 2s;
+}
+.dropdown-item:hover{
+    color:#c09cd4;
+    animation: pulse; 
+    animation-duration: 2s; 
+}
+.btn.hover{
+    animation:tada;
+    animation-duration: 2s;
+}
+.bienvenida{
+    font-size: 22px;
+    background-image: url(../IMG/A/3.png);
+    background-size: cover;
+    min-width:400px ;
+    padding:45px;
+}
+.bienv{
+    font-family: "Farsan", cursive;
+    animation: fadeInDown;
+    animation-duration: 2s;
+}
+.bienvenidas{
+    font-size: 22px;
+    background-image: url(../IMG/A/2.png);
+    background-size: contain;
+    background-repeat: repeat-y;
+    min-width:500px ;
+    padding:60px;
+}
+.catalog{
+    background-image: url(../IMG/A/3.png);
+    background-size: contain;
+    background-repeat:repeat-y;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 10px;
+    padding-top: 20px;
+    max-height: 5000px;
+    animation: fadeInLeft;
+    animation-duration: 2s;
+}
+.catalog1{
+    background-image: url(../IMG/A/1.png);
+    background-size: contain;
+    background-repeat:repeat-y;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 10px;
+    padding-top: 20px;
+    max-height: 5000px;
+    animation: fadeInLeft;
+    animation-duration: 2s;
+}
+h2{
+    font-family: "Farsan", cursive;
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 10px;
+    text-shadow: #c09cd4;
+}
+.card-body{
+    font-family: "Farsan", cursive;
+    padding-left: 15px;
+    padding-right: 15px;
+    min-height: 200px;
+}
+.card-body a{
+    background-color: #c09cd4;
+    font-family: "Farsan", cursive;
+    font-size: 15px;
+    color: white;
+    padding: 10px,20px,10px,20px;
+    text-decoration: none;
+    border-radius: -3;
+    border-color: #faf0ff;
+}
+.card-title{
+    font-size: 22px;
+}
+.card-text{
+    font-size:18px;
+}
+figure{
+    font-family: "Farsan", cursive;
+    font-size: 20px;
+    background-image:linear-gradient(#faf0ff,#c09cd4);
+    padding:100px;
+}
+figure blockquote{
+    animation:fadeInDown;
+    animation-duration: 2s;
+}
+figure figcaption{
+    animation:fadeInDown;
+    animation-duration: 2s;
+}
+footer{
+    background-color: #c09cd4;
+    text-align: center;
+    font-family: "Farsan",cursive;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.milanga{
+    padding-left: 8%;
+    padding-right: 8%;
+    font-family: "Farsan",cursive;
+    font-size: 24px;
+}
+.milanga img{
+    text-align: center;
+    border-radius: 100px ;
+    border-color: #c09cd4;
+}
+.milangas{
+    text-align: center;
+}
+.sancho{
+    margin-top: 100px;
+}
+.sanchoss{
+    margin-top: 80px;
+}
+.chapachapita{
+    max-height: 320px;
+    overflow-y: scroll;
+    scroll-snap-type: mandatory;
+}
