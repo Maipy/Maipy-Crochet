@@ -163,3 +163,8 @@ footer{
 .logo{
     height:70px;
 }
+@media(max-width:1000px){
+    .carousel{
+        margin:5%;
+    }
+}
